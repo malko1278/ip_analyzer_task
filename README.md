@@ -23,10 +23,11 @@
   final analyzer = IpAnalyzer();
   final result = analyzer.analyzeIpString("192.168.1.1 10.0.0.1");
   // {"1":6, "9":1, "2":1, ".":6, "6":1, "8":1, "0":3}
-
+```
 
 
 ## Установка и тестирование
 ```bash
-dart pub get
-dart test
+  $ dart pub get
+  $ dart test
+```
