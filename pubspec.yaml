@@ -1,0 +1,11 @@
+
+name: ip_analyzer
+description: Анализатор строк IP для технического задания
+version: 1.0.0
+
+environment:
+  sdk: ^3.5.0 # Version moderne stable (2026 standard)
+
+dev_dependencies:
+  test: ^1.24.0
+  # lints: ^4.0.0
